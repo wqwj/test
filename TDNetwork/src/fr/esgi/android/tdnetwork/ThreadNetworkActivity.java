@@ -254,5 +254,5 @@ public class ThreadNetworkActivity extends Activity {
 		}
 		return bitmap;
 	}
-
+ 
 }
