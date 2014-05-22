@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="httpRequest"
+            android:text="@string/button_label" />
+
+        <TextView
+            android:id="@+id/sourceCode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FF0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="loadRemoteImage"
+            android:text="@string/load_remote_image" />
+
+        <ImageView
+            android:id="@+id/remoteImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:contentDescription="@string/dynamic_image_loaded" 
+            android:background="#F0F" />
+    </LinearLayout>
+
+</LinearLayout>

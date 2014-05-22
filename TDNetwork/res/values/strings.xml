@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TDNetwork</string>
+    <string name="title_activity_thread_network">ThreadNetworkActivity</string>
+    <string name="button_label">HTTP Request with AsyncTask</string>
+    <string name="load_remote_image">Load Remote Image with Thread</string>
+    <string name="dynamic_image_loaded">Dynamic Image Loaded</string>
+    <string name="network_error">Network Error</string>
+    
+</resources>
